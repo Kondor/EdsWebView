@@ -72,6 +72,7 @@ class WebViewLaunch(
         webView.apply {
             loadUrl("https://test-webads.aisgorod.ru/Identity/Account/Login")
             settings.javaScriptEnabled = true
+            clearCache(true)
             addJavascriptInterface(JSBridge(),"JSBridge")
             addJavascriptInterface(JSBridgeLogOut(),"JSBridgeLogOut")
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {

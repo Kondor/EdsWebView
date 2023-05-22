@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">AppWebGps</string>
-    <string name="title_enable_gps">Enable GPS</string>
-    <string name="desc_enable_gps">GPS is not enabled. Do you want to go to settings menu?</string>
-    <string name="btn_settings">Open Settings</string>
-    <string name="btn_cancel">Cancel</string>
+    <string name="title_enable_gps">Включить GPS</string>
+    <string name="desc_enable_gps">GPS не включен. Вы хотите перейти в меню настроек?</string>
+    <string name="btn_settings">Открыть настройки</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="login_hint_text">Логин</string>
+    <string name="password_hint_text">Пароль</string>
+    <string name="btn_confirm_text">Подтвердить</string>
 </resources>
